@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Loan Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Smart Loan Calculator</h1>
+            <h4>Calculate Your Monthly Payments and Total Interest easily</h4>
+        </div>
+        <div class="content-row">
+            <div id="calculator">
+                <label for="loanAmount">Loan Amount($)</label>
+                <input type="number" id="loanAmount" placeholder="eg.,250000" required>
+                <br>
+                <label for="interestRate">Annual Interest Rate (%)</label>
+                <input type="number" id="interestRate" placeholder="eg.,5.5" required>
+                <br>
+                <label for="longterm">Long Term(Years)</label>
+                <input type="number" id="longTerm" placeholder="eg.,30" required>
+                <br>
+                <button id="calculateButton">Calculate</button>
+            </div>
+            <div class="divider"></div>
+            <div id="summary">
+                <h1>Loan Summary</h1>
+                <p id="monthlyPayment">Monthly Payment: <br><span>$0.00</span></p>
+                <p id="totalPayment">Total Payment: <br><span>$0.00</span></p>
+                <p id="totalInterest">Total Interest Paid: <br><span>$0.00</span></p>
+            </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

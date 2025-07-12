@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+#container{
+    background-color:#f0f0f0;
+    width: 900px;
+    height: 600px;
+    margin-left: 22%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+#container #header{
+    background-color: #0b2c4d;
+    width: 900px;
+    color: white;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+#container #header h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 12px;
+}
+#container #header h4{
+    font-size: 1.0em;
+    text-align: center;
+    margin-top: 0px;
+    color: #d1d1d1;
+}
+#container .content-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.divider{
+    width: 2px;
+    height: 410px;
+    background-color: black;
+    margin-top:20px;
+}
+#calculator{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    height: 330px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+}
+#summary{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    height: 330px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+}
+#calculator input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #0b2c4d ;
+    font-size: 14px;
+    color: #333;
+}
+calculator input::placeholder{
+    color: #999;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#calculator #calculateButton{
+    background-color: #0b2c4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+#calculator #calculateButton:hover{
+    background-color:gray;
+}
+#calculator #calculateButton:active{
+    background-color: #0b2c4d;
+}
+#calculator label{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#summary h1{
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#summary p{
+    font-size: 1.5em;
+    margin-bottom: 9px;
+}
+#summary p span{
+    font-weight: bold;
+    color: #0b2c4d;
+}
+
+
+

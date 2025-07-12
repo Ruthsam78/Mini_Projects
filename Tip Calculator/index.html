@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <h1 id="head">Split & Share</h1>
+    <p id="bottom">The Smart Way to Calculate and Split bills with Friends.Perfect for Dining out,<br>group activities,or Shares Expenses.Get instant Calculator with fair splits and<br>detailed breakdowns.</p>
+    <div id="Container1">
+        <i class="fa-solid fa-money-bill-wave my-icon1" style="color: #fbfcfe;"></i><h3>BILL AMOUNT</h3><br>
+        <input type="number" id="Bill" placeholder="Enter the total bill amount"><br>
+        <i class="fa-solid fa-star-half my-icon1" style="color: #f0f2f4;"></i><h3>SERVICE RATING</h3><br>
+        <select id="Service">
+            <option value="0.2">Exceptional-20%</option>
+            <option value="0.15">Great-15%</option>
+            <option value="0.1">Good-10%</option>
+            <option value="0.05">Fair-5%</option>
+            <option value="0">No Tips</option>
+        </select><br>
+        <i class="fa-solid fa-people-group my-icon1" style="color: #eeeff2;"></i><h3>NUMBER OF PEOPLE</h3><br>
+        <input type="number" id="People" placeholder="Enter number of People"><br>
+        <button id="Btn" type="submit">Calculate Split</button>
+    </div>
+    <div id="Container2">
+        <h2>Breakdown</h2>
+        <div id="inner1">
+            <p>Tip Amount</p><br>
+            <span id="out1">$0.00</span>
+        </div>
+        <div id="inner2">
+            <p>Total Bill</p><br>
+            <span id="out2">$0.00</span>
+        </div>
+        <div id="inner3">
+            <p>Tip Per Person</p>
+            <span id="out3">$0.00</span>
+        </div>
+        <div id="inner4">
+            <p>Per Person</p><br>
+            <span id="out4">$0.00</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

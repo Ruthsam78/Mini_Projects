@@ -1,0 +1,137 @@
+/* index starts*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkgray;
+}
+#Container{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 400px;
+    margin-left: 510px;
+    margin-top: 140px;
+    padding: 20px;
+    border: none;
+    border-radius: 14px;
+    box-shadow:10px 10px 10px 10px rgba(0,0,0,0.20);
+    transition: background-color 0.7s ease-in-out 0.1s;
+}
+#Container #Circle{
+    background-color: rgb(28, 26, 26);
+    height: 130px;
+    width: 150px;
+    margin-left: 125px;
+    margin-top: -70px;
+    border-radius: 90px;
+    box-shadow:2px 20px 10px rgba(0,0,0,0.50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease 0.1s;
+}
+.my-icon{
+    color: white;
+    font-size: 70px;
+}
+#Container #Seperate{
+    padding: 5px;
+}
+#Container #Seperate #Email,#Password{
+    padding: 12px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 7px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    background-color:#ccc;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#Container #Seperate2{
+    margin-top: 30px;
+}
+#Container #Seperate2 #no1{
+    padding: 20px;
+    margin-left:10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+}
+#Container #Seperate2 #no2{
+    padding: 20px;
+    margin-left:68px;
+    text-decoration: none;
+    margin-top: 50px;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+}
+#Container #Seperate2 label{
+    font-size:1em;
+    font-weight: 400;
+}
+#Btn{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
+    margin-left: 660px;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 1.2em;
+    background-color:gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: background-color 0.7s ease-in-out 0.1s;
+}
+#Btn:hover{
+    background-color: black;
+    color: #ccc;
+    cursor: pointer;
+}
+#Btn:active{
+    background-color: #ccc;
+    color: black;
+}
+.my-icon2{
+    font-size: 33px;
+}
+.my-icon3{
+    font-size: 30px;
+}
+#Container #Circle:hover{
+    background-color: rgba(0,0,0,0.3);
+    transform: translate(50px,30px) rotate(-45deg) scale(1.5);
+    cursor: grab;
+}
+#Container:hover{
+    background-color: rgba(0,0,0,0.3);
+    box-shadow:10px 10px 10px 10px rgba(207, 204, 204, 0.5);
+}
+#Container #Seperate2 #no1:hover{
+    color: ivory;
+}
+#Container #Seperate2 #no2:hover{
+    color: ivory;
+}
+/* index ends */
+#here1{
+    background-color: black;
+    height: 300px;
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#here2{
+    color: azure;
+    margin-left: 30px;
+}
